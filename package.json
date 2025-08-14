@@ -1,0 +1,33 @@
+{
+  "name": "cryptotimelock-vault",
+  "version": "1.0.0",
+  "description": "Time locked vault dApp with Solidity backend and React front‑end",
+  "scripts": {
+    "build": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy:localhost": "npx hardhat run scripts/deploy.ts --network localhost",
+    "deploy:sepolia": "npx hardhat run scripts/deploy.ts --network sepolia"
+  },
+  "keywords": [
+    "solidity",
+    "hardhat",
+    "ethers",
+    "react",
+    "vite"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^20.0.0",
+    "chai": "^4.3.7",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.7.0",
+    "hardhat": "^2.22.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.0"
+  }
+}
