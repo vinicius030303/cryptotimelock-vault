@@ -32,17 +32,22 @@ Ideal para *vestings*, *crowdfunding* e situações onde é necessário garantir
 
 ```
 cryptotimelock-vault/
-├── README.md
-├── contracts/
-│   ├── TimeLockVault.sol       # Contrato principal
-│   └── mocks/TestToken.sol     # Token de teste ERC-20
-├── scripts/
-│   ├── deploy.ts               # Deploy do TimeLockVault
-│   ├── deploy_token.ts         # Deploy do token de teste
-│   └── verify.ts               # Verificação do contrato
-├── test/                       # Testes automatizados
-├── apps/web/                   # Interface front-end
-└── hardhat.config.ts
+├── aplicativos/ web/           # Interface front-end
+├── contratos/                  # Contratos inteligentes
+├── roteiros/                   # Scripts de deploy e utilitários
+├── teste/                      # Testes automatizados
+├── .editorconfig
+├── .env.exemplo
+├── .gitignore
+├── .nvmrc
+├── .prettierrc
+├── LICENÇA
+├── LEIA-ME.md                   # Documentação principal
+├── hardhat.config.ts
+├── pacote-lock.json
+├── pacote.json
+└── tsconfig.json
+
 ```
 
 ---
